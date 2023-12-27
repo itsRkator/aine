@@ -1,0 +1,48 @@
+.navItems {
+    background-color: white;
+    left: 0;
+    top: 0;
+    position: fixed;
+    width: 10rem;
+    height: 100%;
+    box-shadow: 10px 5px 10px #dadbdd;
+    align-items: center;
+}
+.navBanner{
+    color: #8a94a1;
+    font-size: larger;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 35px 15px;
+}
+.navItem {
+    color: #8a94a1;
+    font-size: larger;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 35px 15px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.active {
+    color: #000000;
+    background: #d0dfed;
+    border-left: 0.25rem solid #346bc5
+}
+
+button {
+    border: none;
+    padding: 0;
+    background: none;
+    font-family: inherit;
+    cursor: pointer;
+}
